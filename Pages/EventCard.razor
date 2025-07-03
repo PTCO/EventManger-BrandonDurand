@@ -1,0 +1,50 @@
+@using Events 
+@using System.Text.Json
+@using Users
+
+@inject IJSRuntime JS
+@inject EventServices EventServices
+
+<li @key="@env.EventId" class="list-group-item flex flex-column">
+    <strong>@env.EventName</strong><br />
+    <span>@env.EventDate</span><br />
+    <span class="!w-[100%]">@env.EventLocation</span>
+    <div class="d-flex align-items-center border-bottom border-black pb-2 mb-3">
+        <strong>Attending :</strong>
+        <p class="ms-2 border rounded mb-0 px-2 py-1 text-white @(env.IsRegistered ? "bg-success": "bg-danger")">
+            @(env.IsRegistered ? "Yes": "No")
+        </p>
+    </div>
+    <button class="btn btn-primary" @onclick="@(() => ViewEvent.InvokeAsync($"/Event/{EventId}"))">View</button>
+</li>
+
+@code {
+    [Parameter]
+    public int EventId { get; set; }
+
+    public Events.EventDetails env = new Events.EventDetails();
+
+    [Parameter]
+    public EventCallback<string> ViewEvent { get; set; }
+
+    protected async override void OnInitialized()
+    {
+        env = EventServices.getEvent(EventId);
+        var userSession = await JS.InvokeAsync<string>("sessionStorage.getItem", "User");
+        if (!string.IsNullOrEmpty(userSession))
+        {
+            var user = JsonSerializer.Deserialize<User>(userSession);
+            // Deserialize session data if needed
+            foreach (var item in user.RegisteredEvents)
+            {
+                var registeredEvent = JsonSerializer.Deserialize<Events.EventDetails>(item.ToString());
+                if (registeredEvent != null && registeredEvent.EventId == EventId)
+                {
+                    env.IsRegistered = true; // Set the registration status based on session data
+                    break;
+                }
+            }
+        }
+        StateHasChanged(); // Ensure the UI updates after fetching event details
+    }
+}

@@ -1,0 +1,104 @@
+
+@using Microsoft.AspNetCore.Components.Forms
+@using Events
+@using System.ComponentModel.DataAnnotations
+@using System.Text.Json
+@using Users
+
+@page "/Event/{eventId:int}/Register"
+@inject NavigationManager NavigationManager
+@inject IJSRuntime JS
+
+<EventDetails eventId="@eventDetails.EventId" />
+
+@if(!eventDetails.IsRegistered)
+{
+    <EditForm Model="@userRegistration" OnValidSubmit="HandleValidSubmit">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+
+        <div class="mb-3">
+            <label for="userName" class="form-label">Name</label>
+            <InputText id="userName" class="form-control" @bind-Value="userRegistration.Name" />
+            <ValidationMessage For="@(() => userRegistration.Name)" />
+        </div>
+        <div class="mb-3">
+            <label for="userDate" class="form-label">Date</label>
+            <InputDate id="userDate" class="form-control" @bind-Value="userRegistration.Date" />
+            <ValidationMessage For="@(() => userRegistration.Date)" />
+        </div>
+        <div class="mb-3">
+            <label for="userEmail" class="form-label">Email</label>
+            <InputText id="userEmail" class="form-control" @bind-Value="userRegistration.Email" />
+            <ValidationMessage For="@(() => userRegistration.Email)" />
+
+        </div>
+        <div class="mb-3">
+            <label for="userLocation" class="form-label">Location</label>
+            <InputText id="userLocation" class="form-control" @bind-Value="userRegistration.Location" />
+            <ValidationMessage For="@(() => userRegistration.Location)" />
+        </div>
+        <button type="button" @onclick="@(() => NavigationManager.NavigateTo("/"))" class="btn btn-secondary">Back To Events</button>
+        <button type="submit" class="btn btn-primary">Register</button>
+    </EditForm>
+}
+else
+{
+    <p class="text-success">You are already registered for this event.</p>
+}
+
+@code {
+    [Parameter]
+    public int eventId { get; set; }
+    public Events.EventDetails eventDetails = new Events.EventDetails();
+    protected override void OnInitialized()
+    {
+        // Fetch event details based on eventId
+        eventDetails = EventServices.getEvent(eventId);
+    }
+    public class UserRegistration
+    {
+        [Required(ErrorMessage = "Name is required.")]
+        [RegularExpression(@"^[a-zA-Z\s]+$", ErrorMessage = "Name must contain only letters and spaces.")]
+        public string Name { get; set; } = string.Empty;
+
+        [Required(ErrorMessage = "Date is required.")]
+        public DateTime? Date { get; set; }
+
+        [EmailAddress(ErrorMessage = "Invalid email address.")]
+        public string Email { get; set; } = string.Empty;
+
+        [Required(ErrorMessage = "Location is required.")]
+        [StringLength(100, ErrorMessage = "Location cannot exceed 100 characters.")]
+        [RegularExpression(@"^[0-9a-zA-Z\s]+$", ErrorMessage = "Location must contain only letters, numbers, and spaces.")]
+        public string Location { get; set; } = string.Empty;
+    }
+    private UserRegistration userRegistration = new UserRegistration();
+
+private async Task HandleValidSubmit(EditContext editContext)
+{
+    var registrationData = new
+    {
+        EventName = userRegistration.Name,
+        EventDate = userRegistration.Date,
+        EventLocation = userRegistration.Location,
+        EventId = eventId,
+        IsRegistered = true // Assuming registration is successful
+    };
+
+    var userSession = await JS.InvokeAsync<string>("sessionStorage.getItem", "User");
+    if (string.IsNullOrEmpty(userSession))
+    {
+        NavigationManager.NavigateTo("/Login"); // Redirect to login if user is not registered
+        return;
+    }
+
+    var userData = JsonSerializer.Deserialize<User>(userSession);
+    userData.RegisteredEvents.Add(registrationData);
+
+    var updatedUserJson = JsonSerializer.Serialize(userData);
+    await JS.InvokeVoidAsync("sessionStorage.setItem", "User", updatedUserJson);
+    NavigationManager.NavigateTo("/Event/" + eventId);
+}
+
+}
