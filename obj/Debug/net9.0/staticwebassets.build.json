@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ATsrLYQ4ZMxrVt0yvlOMEagyJ/GhU1zhyy+NdN5PpZw=",
+  "Hash": "GWL6m5KqHCU417AuckmyTZq4jw7HDHana8Busq1wVsY=",
   "Source": "EventEase-BrandonDurand",
   "BasePath": "/",
   "Mode": "Root",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "q4u0oreuy4",
-      "Integrity": "dqMoKw0m/zbKXDMTCtOu45Kaqp28xidah0twUrRTSMY=",
+      "Fingerprint": "o7yg2t00cf",
+      "Integrity": "NOc7w3MglHpjqqBespu4TsE+K2CbW0gBsJgTglSYOt4=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net9.0\\blazor.boot.json"
@@ -199,8 +199,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "6t6fkuowdv",
-      "Integrity": "Ohwl3C2wOvAdfCBEB+mqo74QdcM+lkYWua3pMnnNp1g=",
+      "Fingerprint": "ubkq9a28ty",
+      "Integrity": "luWWIdIbGe7T4VosjQrLUCyOWzkQ1ItwZtehm70w0XQ=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net9.0\\EventEase-BrandonDurand.pdb"
@@ -220,8 +220,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "saqdj7fmue",
-      "Integrity": "nFrjCtEwHPTgOHOwiVrvngaV8bEu4vaSlpOBvfCMKOU=",
+      "Fingerprint": "wny9io0q67",
+      "Integrity": "vEmolN14QuNdp9Ur6/aN9ebf6b0A2LYyHbTlen1COWg=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\brann\\EventEase-BrandonDurand\\obj\\Debug\\net9.0\\webcil\\EventEase-BrandonDurand.wasm"
@@ -5729,12 +5729,12 @@
       "OriginalItemSpec": "C:\\Users\\brann\\EventEase-BrandonDurand\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.Extensions.Options.wasm"
     },
     {
-      "Identity": "C:\\Users\\brann\\EventEase-BrandonDurand\\obj\\Debug\\net9.0\\compressed\\adiswp3tat-saqdj7fmue.gz",
+      "Identity": "C:\\Users\\brann\\EventEase-BrandonDurand\\obj\\Debug\\net9.0\\compressed\\adiswp3tat-wny9io0q67.gz",
       "SourceId": "EventEase-BrandonDurand",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\brann\\EventEase-BrandonDurand\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/EventEase-BrandonDurand#[.{fingerprint=saqdj7fmue}]!.wasm.gz",
+      "RelativePath": "_framework/EventEase-BrandonDurand#[.{fingerprint=wny9io0q67}]!.wasm.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -5743,8 +5743,8 @@
       "RelatedAsset": "C:\\Users\\brann\\EventEase-BrandonDurand\\bin\\Debug\\net9.0\\wwwroot\\_framework\\EventEase-BrandonDurand.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "80f7zqj76b",
-      "Integrity": "uOJOoXJNskxUQhrWwvqjc0JRVHR6Dy/sC5CvXWs+yvY=",
+      "Fingerprint": "3305gzc2iw",
+      "Integrity": "r0ulH2KfPTYK+AEePTzzRFNHP0ESMe/lIgmH5GjSwJo=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\brann\\EventEase-BrandonDurand\\bin\\Debug\\net9.0\\wwwroot\\_framework\\EventEase-BrandonDurand.wasm"
@@ -6128,7 +6128,7 @@
       "OriginalItemSpec": "C:\\Users\\brann\\EventEase-BrandonDurand\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.Reflection.DispatchProxy.wasm"
     },
     {
-      "Identity": "C:\\Users\\brann\\EventEase-BrandonDurand\\obj\\Debug\\net9.0\\compressed\\dg88cihpq7-q4u0oreuy4.gz",
+      "Identity": "C:\\Users\\brann\\EventEase-BrandonDurand\\obj\\Debug\\net9.0\\compressed\\dg88cihpq7-o7yg2t00cf.gz",
       "SourceId": "EventEase-BrandonDurand",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\brann\\EventEase-BrandonDurand\\obj\\Debug\\net9.0\\compressed\\",
@@ -6142,8 +6142,8 @@
       "RelatedAsset": "C:\\Users\\brann\\EventEase-BrandonDurand\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "uffvltkgan",
-      "Integrity": "FpfT48/MbQCC4a2mkdMQuJOtQDBm1hC57s9WK89b3Bw=",
+      "Fingerprint": "ml560q4nhf",
+      "Integrity": "JvYldwUVjy+atDj3ps8OhlBw2yfD8MJolnV5J2xt1LU=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\brann\\EventEase-BrandonDurand\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.boot.json"
@@ -8501,12 +8501,12 @@
       "OriginalItemSpec": "C:\\Users\\brann\\EventEase-BrandonDurand\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.ServiceModel.Web.wasm"
     },
     {
-      "Identity": "C:\\Users\\brann\\EventEase-BrandonDurand\\obj\\Debug\\net9.0\\compressed\\rxc1fw5xfj-6t6fkuowdv.gz",
+      "Identity": "C:\\Users\\brann\\EventEase-BrandonDurand\\obj\\Debug\\net9.0\\compressed\\rxc1fw5xfj-ubkq9a28ty.gz",
       "SourceId": "EventEase-BrandonDurand",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\brann\\EventEase-BrandonDurand\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/EventEase-BrandonDurand#[.{fingerprint=6t6fkuowdv}]!.pdb.gz",
+      "RelativePath": "_framework/EventEase-BrandonDurand#[.{fingerprint=ubkq9a28ty}]!.pdb.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -8515,8 +8515,8 @@
       "RelatedAsset": "C:\\Users\\brann\\EventEase-BrandonDurand\\bin\\Debug\\net9.0\\wwwroot\\_framework\\EventEase-BrandonDurand.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "27wbf0ty3a",
-      "Integrity": "QskyU2N8oGmPz8V2qwV40Zu0aXY/nZsDgxxRDJbpB5A=",
+      "Fingerprint": "lwohutv6m0",
+      "Integrity": "VXogfNK6nCN58sqeTNnSIZRC8szlRZnkkkOTuV2/Drk=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\brann\\EventEase-BrandonDurand\\bin\\Debug\\net9.0\\wwwroot\\_framework\\EventEase-BrandonDurand.pdb"
@@ -10705,11 +10705,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"dqMoKw0m/zbKXDMTCtOu45Kaqp28xidah0twUrRTSMY=\""
+          "Value": "\"NOc7w3MglHpjqqBespu4TsE+K2CbW0gBsJgTglSYOt4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 03 Jul 2025 04:57:29 GMT"
+          "Value": "Sat, 05 Jul 2025 23:12:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10719,18 +10719,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-dqMoKw0m/zbKXDMTCtOu45Kaqp28xidah0twUrRTSMY="
+          "Value": "sha256-NOc7w3MglHpjqqBespu4TsE+K2CbW0gBsJgTglSYOt4="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json",
-      "AssetFile": "C:\\Users\\brann\\EventEase-BrandonDurand\\obj\\Debug\\net9.0\\compressed\\dg88cihpq7-q4u0oreuy4.gz",
+      "AssetFile": "C:\\Users\\brann\\EventEase-BrandonDurand\\obj\\Debug\\net9.0\\compressed\\dg88cihpq7-o7yg2t00cf.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000081214976"
+          "Quality": "0.000081155657"
         }
       ],
       "ResponseHeaders": [
@@ -10740,15 +10740,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12312"
+          "Value": "12321"
         },
         {
           "Name": "ETag",
-          "Value": "\"FpfT48/MbQCC4a2mkdMQuJOtQDBm1hC57s9WK89b3Bw=\""
+          "Value": "\"JvYldwUVjy+atDj3ps8OhlBw2yfD8MJolnV5J2xt1LU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 03 Jul 2025 02:45:27 GMT"
+          "Value": "Fri, 04 Jul 2025 23:09:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10768,19 +10768,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"dqMoKw0m/zbKXDMTCtOu45Kaqp28xidah0twUrRTSMY=\""
+          "Value": "W/\"NOc7w3MglHpjqqBespu4TsE+K2CbW0gBsJgTglSYOt4=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-dqMoKw0m/zbKXDMTCtOu45Kaqp28xidah0twUrRTSMY="
+          "Value": "sha256-NOc7w3MglHpjqqBespu4TsE+K2CbW0gBsJgTglSYOt4="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "C:\\Users\\brann\\EventEase-BrandonDurand\\obj\\Debug\\net9.0\\compressed\\dg88cihpq7-q4u0oreuy4.gz",
+      "AssetFile": "C:\\Users\\brann\\EventEase-BrandonDurand\\obj\\Debug\\net9.0\\compressed\\dg88cihpq7-o7yg2t00cf.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10789,7 +10789,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12312"
+          "Value": "12321"
         },
         {
           "Name": "Content-Type",
@@ -10797,11 +10797,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"FpfT48/MbQCC4a2mkdMQuJOtQDBm1hC57s9WK89b3Bw=\""
+          "Value": "\"JvYldwUVjy+atDj3ps8OhlBw2yfD8MJolnV5J2xt1LU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 03 Jul 2025 02:45:27 GMT"
+          "Value": "Fri, 04 Jul 2025 23:09:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10819,7 +10819,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-FpfT48/MbQCC4a2mkdMQuJOtQDBm1hC57s9WK89b3Bw="
+          "Value": "sha256-JvYldwUVjy+atDj3ps8OhlBw2yfD8MJolnV5J2xt1LU="
         }
       ]
     },
@@ -12749,7 +12749,7 @@
       ]
     },
     {
-      "Route": "_framework/EventEase-BrandonDurand.6t6fkuowdv.pdb",
+      "Route": "_framework/EventEase-BrandonDurand.pdb",
       "AssetFile": "C:\\Users\\brann\\EventEase-BrandonDurand\\bin\\Debug\\net9.0\\wwwroot\\_framework\\EventEase-BrandonDurand.pdb",
       "Selectors": [],
       "ResponseHeaders": [
@@ -12759,7 +12759,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "41000"
+          "Value": "42164"
         },
         {
           "Name": "Content-Type",
@@ -12767,40 +12767,32 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Ohwl3C2wOvAdfCBEB+mqo74QdcM+lkYWua3pMnnNp1g=\""
+          "Value": "\"luWWIdIbGe7T4VosjQrLUCyOWzkQ1ItwZtehm70w0XQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 03 Jul 2025 04:57:28 GMT"
+          "Value": "Fri, 04 Jul 2025 23:09:56 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "6t6fkuowdv"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/EventEase-BrandonDurand.pdb"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-Ohwl3C2wOvAdfCBEB+mqo74QdcM+lkYWua3pMnnNp1g="
+          "Value": "sha256-luWWIdIbGe7T4VosjQrLUCyOWzkQ1ItwZtehm70w0XQ="
         }
       ]
     },
     {
-      "Route": "_framework/EventEase-BrandonDurand.6t6fkuowdv.pdb",
-      "AssetFile": "C:\\Users\\brann\\EventEase-BrandonDurand\\obj\\Debug\\net9.0\\compressed\\rxc1fw5xfj-6t6fkuowdv.gz",
+      "Route": "_framework/EventEase-BrandonDurand.pdb",
+      "AssetFile": "C:\\Users\\brann\\EventEase-BrandonDurand\\obj\\Debug\\net9.0\\compressed\\rxc1fw5xfj-ubkq9a28ty.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000031998976"
+          "Quality": "0.000031096461"
         }
       ],
       "ResponseHeaders": [
@@ -12810,19 +12802,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "31250"
+          "Value": "32157"
         },
         {
           "Name": "ETag",
-          "Value": "\"QskyU2N8oGmPz8V2qwV40Zu0aXY/nZsDgxxRDJbpB5A=\""
+          "Value": "\"VXogfNK6nCN58sqeTNnSIZRC8szlRZnkkkOTuV2/Drk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 03 Jul 2025 04:57:29 GMT"
+          "Value": "Fri, 04 Jul 2025 23:09:57 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -12838,27 +12830,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"Ohwl3C2wOvAdfCBEB+mqo74QdcM+lkYWua3pMnnNp1g=\""
+          "Value": "W/\"luWWIdIbGe7T4VosjQrLUCyOWzkQ1ItwZtehm70w0XQ=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "6t6fkuowdv"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/EventEase-BrandonDurand.pdb"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-Ohwl3C2wOvAdfCBEB+mqo74QdcM+lkYWua3pMnnNp1g="
+          "Value": "sha256-luWWIdIbGe7T4VosjQrLUCyOWzkQ1ItwZtehm70w0XQ="
         }
       ]
     },
     {
-      "Route": "_framework/EventEase-BrandonDurand.6t6fkuowdv.pdb.gz",
-      "AssetFile": "C:\\Users\\brann\\EventEase-BrandonDurand\\obj\\Debug\\net9.0\\compressed\\rxc1fw5xfj-6t6fkuowdv.gz",
+      "Route": "_framework/EventEase-BrandonDurand.pdb.gz",
+      "AssetFile": "C:\\Users\\brann\\EventEase-BrandonDurand\\obj\\Debug\\net9.0\\compressed\\rxc1fw5xfj-ubkq9a28ty.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12867,7 +12851,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "31250"
+          "Value": "32157"
         },
         {
           "Name": "Content-Type",
@@ -12875,11 +12859,164 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"QskyU2N8oGmPz8V2qwV40Zu0aXY/nZsDgxxRDJbpB5A=\""
+          "Value": "\"VXogfNK6nCN58sqeTNnSIZRC8szlRZnkkkOTuV2/Drk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 03 Jul 2025 04:57:29 GMT"
+          "Value": "Fri, 04 Jul 2025 23:09:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VXogfNK6nCN58sqeTNnSIZRC8szlRZnkkkOTuV2/Drk="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/EventEase-BrandonDurand.ubkq9a28ty.pdb",
+      "AssetFile": "C:\\Users\\brann\\EventEase-BrandonDurand\\bin\\Debug\\net9.0\\wwwroot\\_framework\\EventEase-BrandonDurand.pdb",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "42164"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"luWWIdIbGe7T4VosjQrLUCyOWzkQ1ItwZtehm70w0XQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Jul 2025 23:09:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ubkq9a28ty"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/EventEase-BrandonDurand.pdb"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-luWWIdIbGe7T4VosjQrLUCyOWzkQ1ItwZtehm70w0XQ="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/EventEase-BrandonDurand.ubkq9a28ty.pdb",
+      "AssetFile": "C:\\Users\\brann\\EventEase-BrandonDurand\\obj\\Debug\\net9.0\\compressed\\rxc1fw5xfj-ubkq9a28ty.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000031096461"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "32157"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VXogfNK6nCN58sqeTNnSIZRC8szlRZnkkkOTuV2/Drk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Jul 2025 23:09:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"luWWIdIbGe7T4VosjQrLUCyOWzkQ1ItwZtehm70w0XQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ubkq9a28ty"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/EventEase-BrandonDurand.pdb"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-luWWIdIbGe7T4VosjQrLUCyOWzkQ1ItwZtehm70w0XQ="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/EventEase-BrandonDurand.ubkq9a28ty.pdb.gz",
+      "AssetFile": "C:\\Users\\brann\\EventEase-BrandonDurand\\obj\\Debug\\net9.0\\compressed\\rxc1fw5xfj-ubkq9a28ty.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "32157"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VXogfNK6nCN58sqeTNnSIZRC8szlRZnkkkOTuV2/Drk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Jul 2025 23:09:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12897,7 +13034,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "6t6fkuowdv"
+          "Value": "ubkq9a28ty"
         },
         {
           "Name": "label",
@@ -12905,149 +13042,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-QskyU2N8oGmPz8V2qwV40Zu0aXY/nZsDgxxRDJbpB5A="
+          "Value": "sha256-VXogfNK6nCN58sqeTNnSIZRC8szlRZnkkkOTuV2/Drk="
         }
       ]
     },
     {
-      "Route": "_framework/EventEase-BrandonDurand.pdb",
-      "AssetFile": "C:\\Users\\brann\\EventEase-BrandonDurand\\bin\\Debug\\net9.0\\wwwroot\\_framework\\EventEase-BrandonDurand.pdb",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "41000"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Ohwl3C2wOvAdfCBEB+mqo74QdcM+lkYWua3pMnnNp1g=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 03 Jul 2025 04:57:28 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Ohwl3C2wOvAdfCBEB+mqo74QdcM+lkYWua3pMnnNp1g="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/EventEase-BrandonDurand.pdb",
-      "AssetFile": "C:\\Users\\brann\\EventEase-BrandonDurand\\obj\\Debug\\net9.0\\compressed\\rxc1fw5xfj-6t6fkuowdv.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000031998976"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "31250"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"QskyU2N8oGmPz8V2qwV40Zu0aXY/nZsDgxxRDJbpB5A=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 03 Jul 2025 04:57:29 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"Ohwl3C2wOvAdfCBEB+mqo74QdcM+lkYWua3pMnnNp1g=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Ohwl3C2wOvAdfCBEB+mqo74QdcM+lkYWua3pMnnNp1g="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/EventEase-BrandonDurand.pdb.gz",
-      "AssetFile": "C:\\Users\\brann\\EventEase-BrandonDurand\\obj\\Debug\\net9.0\\compressed\\rxc1fw5xfj-6t6fkuowdv.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "31250"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"QskyU2N8oGmPz8V2qwV40Zu0aXY/nZsDgxxRDJbpB5A=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 03 Jul 2025 04:57:29 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-QskyU2N8oGmPz8V2qwV40Zu0aXY/nZsDgxxRDJbpB5A="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/EventEase-BrandonDurand.saqdj7fmue.wasm",
+      "Route": "_framework/EventEase-BrandonDurand.wasm",
       "AssetFile": "C:\\Users\\brann\\EventEase-BrandonDurand\\bin\\Debug\\net9.0\\wwwroot\\_framework\\EventEase-BrandonDurand.wasm",
       "Selectors": [],
       "ResponseHeaders": [
@@ -13057,7 +13057,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "53525"
+          "Value": "56085"
         },
         {
           "Name": "Content-Type",
@@ -13065,40 +13065,32 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"nFrjCtEwHPTgOHOwiVrvngaV8bEu4vaSlpOBvfCMKOU=\""
+          "Value": "\"vEmolN14QuNdp9Ur6/aN9ebf6b0A2LYyHbTlen1COWg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 03 Jul 2025 04:57:28 GMT"
+          "Value": "Fri, 04 Jul 2025 23:09:56 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "saqdj7fmue"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/EventEase-BrandonDurand.wasm"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-nFrjCtEwHPTgOHOwiVrvngaV8bEu4vaSlpOBvfCMKOU="
+          "Value": "sha256-vEmolN14QuNdp9Ur6/aN9ebf6b0A2LYyHbTlen1COWg="
         }
       ]
     },
     {
-      "Route": "_framework/EventEase-BrandonDurand.saqdj7fmue.wasm",
-      "AssetFile": "C:\\Users\\brann\\EventEase-BrandonDurand\\obj\\Debug\\net9.0\\compressed\\adiswp3tat-saqdj7fmue.gz",
+      "Route": "_framework/EventEase-BrandonDurand.wasm",
+      "AssetFile": "C:\\Users\\brann\\EventEase-BrandonDurand\\obj\\Debug\\net9.0\\compressed\\adiswp3tat-wny9io0q67.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000046565774"
+          "Quality": "0.000044786815"
         }
       ],
       "ResponseHeaders": [
@@ -13108,19 +13100,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "21474"
+          "Value": "22327"
         },
         {
           "Name": "ETag",
-          "Value": "\"uOJOoXJNskxUQhrWwvqjc0JRVHR6Dy/sC5CvXWs+yvY=\""
+          "Value": "\"r0ulH2KfPTYK+AEePTzzRFNHP0ESMe/lIgmH5GjSwJo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 03 Jul 2025 04:57:29 GMT"
+          "Value": "Fri, 04 Jul 2025 23:09:57 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -13136,27 +13128,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"nFrjCtEwHPTgOHOwiVrvngaV8bEu4vaSlpOBvfCMKOU=\""
+          "Value": "W/\"vEmolN14QuNdp9Ur6/aN9ebf6b0A2LYyHbTlen1COWg=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "saqdj7fmue"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/EventEase-BrandonDurand.wasm"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-nFrjCtEwHPTgOHOwiVrvngaV8bEu4vaSlpOBvfCMKOU="
+          "Value": "sha256-vEmolN14QuNdp9Ur6/aN9ebf6b0A2LYyHbTlen1COWg="
         }
       ]
     },
     {
-      "Route": "_framework/EventEase-BrandonDurand.saqdj7fmue.wasm.gz",
-      "AssetFile": "C:\\Users\\brann\\EventEase-BrandonDurand\\obj\\Debug\\net9.0\\compressed\\adiswp3tat-saqdj7fmue.gz",
+      "Route": "_framework/EventEase-BrandonDurand.wasm.gz",
+      "AssetFile": "C:\\Users\\brann\\EventEase-BrandonDurand\\obj\\Debug\\net9.0\\compressed\\adiswp3tat-wny9io0q67.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13165,7 +13149,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "21474"
+          "Value": "22327"
         },
         {
           "Name": "Content-Type",
@@ -13173,11 +13157,164 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"uOJOoXJNskxUQhrWwvqjc0JRVHR6Dy/sC5CvXWs+yvY=\""
+          "Value": "\"r0ulH2KfPTYK+AEePTzzRFNHP0ESMe/lIgmH5GjSwJo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 03 Jul 2025 04:57:29 GMT"
+          "Value": "Fri, 04 Jul 2025 23:09:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-r0ulH2KfPTYK+AEePTzzRFNHP0ESMe/lIgmH5GjSwJo="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/EventEase-BrandonDurand.wny9io0q67.wasm",
+      "AssetFile": "C:\\Users\\brann\\EventEase-BrandonDurand\\bin\\Debug\\net9.0\\wwwroot\\_framework\\EventEase-BrandonDurand.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "56085"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vEmolN14QuNdp9Ur6/aN9ebf6b0A2LYyHbTlen1COWg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Jul 2025 23:09:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wny9io0q67"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/EventEase-BrandonDurand.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vEmolN14QuNdp9Ur6/aN9ebf6b0A2LYyHbTlen1COWg="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/EventEase-BrandonDurand.wny9io0q67.wasm",
+      "AssetFile": "C:\\Users\\brann\\EventEase-BrandonDurand\\obj\\Debug\\net9.0\\compressed\\adiswp3tat-wny9io0q67.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000044786815"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22327"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"r0ulH2KfPTYK+AEePTzzRFNHP0ESMe/lIgmH5GjSwJo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Jul 2025 23:09:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"vEmolN14QuNdp9Ur6/aN9ebf6b0A2LYyHbTlen1COWg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wny9io0q67"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/EventEase-BrandonDurand.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vEmolN14QuNdp9Ur6/aN9ebf6b0A2LYyHbTlen1COWg="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/EventEase-BrandonDurand.wny9io0q67.wasm.gz",
+      "AssetFile": "C:\\Users\\brann\\EventEase-BrandonDurand\\obj\\Debug\\net9.0\\compressed\\adiswp3tat-wny9io0q67.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22327"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"r0ulH2KfPTYK+AEePTzzRFNHP0ESMe/lIgmH5GjSwJo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Jul 2025 23:09:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13195,7 +13332,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "saqdj7fmue"
+          "Value": "wny9io0q67"
         },
         {
           "Name": "label",
@@ -13203,144 +13340,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-uOJOoXJNskxUQhrWwvqjc0JRVHR6Dy/sC5CvXWs+yvY="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/EventEase-BrandonDurand.wasm",
-      "AssetFile": "C:\\Users\\brann\\EventEase-BrandonDurand\\bin\\Debug\\net9.0\\wwwroot\\_framework\\EventEase-BrandonDurand.wasm",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "53525"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"nFrjCtEwHPTgOHOwiVrvngaV8bEu4vaSlpOBvfCMKOU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 03 Jul 2025 04:57:28 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-nFrjCtEwHPTgOHOwiVrvngaV8bEu4vaSlpOBvfCMKOU="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/EventEase-BrandonDurand.wasm",
-      "AssetFile": "C:\\Users\\brann\\EventEase-BrandonDurand\\obj\\Debug\\net9.0\\compressed\\adiswp3tat-saqdj7fmue.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000046565774"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "21474"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"uOJOoXJNskxUQhrWwvqjc0JRVHR6Dy/sC5CvXWs+yvY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 03 Jul 2025 04:57:29 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"nFrjCtEwHPTgOHOwiVrvngaV8bEu4vaSlpOBvfCMKOU=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-nFrjCtEwHPTgOHOwiVrvngaV8bEu4vaSlpOBvfCMKOU="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/EventEase-BrandonDurand.wasm.gz",
-      "AssetFile": "C:\\Users\\brann\\EventEase-BrandonDurand\\obj\\Debug\\net9.0\\compressed\\adiswp3tat-saqdj7fmue.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "21474"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"uOJOoXJNskxUQhrWwvqjc0JRVHR6Dy/sC5CvXWs+yvY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 03 Jul 2025 04:57:29 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-uOJOoXJNskxUQhrWwvqjc0JRVHR6Dy/sC5CvXWs+yvY="
+          "Value": "sha256-r0ulH2KfPTYK+AEePTzzRFNHP0ESMe/lIgmH5GjSwJo="
         }
       ]
     },

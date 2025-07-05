@@ -10,32 +10,34 @@
 
 <PageTitle>Events</PageTitle>
 
-<div>
-
-    <h1 class="text-center"><strong>@User.Username</strong> -  Welcome to EventEase</h1>
+<div class="d-flex align-items-center mb-3">
+    <img src="https://th.bing.com/th/id/R.fb3e37a038154d35211ef41340708788?rik=Obr13iA%2fd0bsXg&pid=ImgRaw&r=0" alt="EventEase Logo" class="logo me-2" style="height: 50px;">
+    <h1 class="mb-0"><strong>@User.Username</strong> -  Welcome to EventEase</h1>
+    <button class="p-1 rounded ms-3" @onclick="@(() => Logout())">Logout</button>
 </div>
 
-<h3>Upcoming Events</h3>
-
-@if (events == null)
-{
-    <p>Loading events...</p>
-}
-else if (!events.Any())
-{
-    <p>No events found.</p>
-}
-else
-{
-    <ul id="scrollableDiv" class="list-group border-bottom border-5 border-gray-400"
-        @onwheel="@(() => HandleScroll())"
-        style="height: 80vh; overflow-y: auto;">
-        @foreach (var evt in events)
-        {
-            <EventCard EventId="@evt.EventId" ViewEvent="@(async (url) => await NavigateToUrl(url))" />
-        }
-    </ul>
-}
+<section class="w-50">
+    <h2 class="mb-3 border-bottom border-4 pb-2">Upcoming Events</h2>
+    @if (events == null)
+    {
+        <p>Loading events...</p>
+    }
+    else if (!events.Any())
+    {
+        <p>No events found.</p>
+    }
+    else
+    {
+        <ul id="scrollableDiv" class="list-group  border-gray-400"
+            @onwheel="@(() => HandleScroll())"
+            style="height: 80vh; overflow-y: auto;">
+            @foreach (var evt in events)
+            {
+                <EventCard EventId="@evt.EventId" ViewEvent="@(async (url) => await NavigateToUrl(url))" />
+            }
+        </ul>
+    }
+</section>
 
 @code {
     private List<Events.EventDetails> events = new();
@@ -59,6 +61,12 @@ else
     private async Task HandleScroll()
     {
         await ScrollServices.HandleScroll("scrollableDiv");
+    }
+
+    private async Task Logout()
+    {
+        await JS.InvokeVoidAsync("sessionStorage.removeItem", "User");
+        NavigationManager.NavigateTo("/Login");
     }
 
     private async Task NavigateToUrl(string url)

@@ -38,7 +38,7 @@
             <InputText id="userLocation" class="form-control" @bind-Value="userRegistration.Location" />
             <ValidationMessage For="@(() => userRegistration.Location)" />
         </div>
-        <button type="button" @onclick="@(() => NavigationManager.NavigateTo("/"))" class="btn btn-secondary">Back To Events</button>
+        <button type="button" @onclick="@(() => NavigationManager.NavigateTo($"/Event/{eventId}"))" class="btn btn-secondary">Back To Events</button>
         <button type="submit" class="btn btn-primary">Register</button>
     </EditForm>
 }

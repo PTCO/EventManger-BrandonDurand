@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EventEase-BrandonDurand")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b4b603fb87238ebe660bdd39944b434d1a4a5c10")]
 [assembly: System.Reflection.AssemblyProductAttribute("EventEase-BrandonDurand")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EventEase-BrandonDurand")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -5,7 +5,7 @@
 @inject IJSRuntime JS
 @inject EventServices EventServices
 
-<li @key="@env.EventId" class="list-group-item flex flex-column">
+<li @key="@env.EventId" class="border p-3 rounded flex flex-column mb-3">
     <strong>@env.EventName</strong><br />
     <span>@env.EventDate</span><br />
     <span class="!w-[100%]">@env.EventLocation</span>
